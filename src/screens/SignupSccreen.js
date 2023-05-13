@@ -92,8 +92,8 @@ const SignupScreen = ({ navigation }) => {
                 </View>
             </View>
             <Text></Text>
-            <TouchableOpacity style={styles.signupButton}>
-                <Text style={styles.signupButtonText}>Sign Up</Text>
+            <TouchableOpacity style={styles.signupButton} onPress={() => navigation.navigate("RegisterPhone")}>
+                <Text style={styles.signupButtonText}>Create Account</Text>
             </TouchableOpacity>
             <Text style={styles.orText}>OR</Text>
             <TouchableOpacity style={styles.facebookButton}>
